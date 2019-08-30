@@ -1,7 +1,7 @@
 const saudacao = "Olá!"
 
 //Existem duas constantes saudacao, mas uma delas está no contexto da function
-function saudar(){
+function saudar() {
     const saudacao = "Opa!"
     return saudacao
 }
