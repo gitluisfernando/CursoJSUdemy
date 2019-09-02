@@ -5,9 +5,9 @@ function tratarErro(erro){
 function gerarErro(obj){
     try {
         console.log("Olá!")
-    } catch (e) {
+    } catch (e) { //Se der algum problema, trata o erro
         tratarErro(e)
-    } finally {
+    } finally { //Sempre vai imprimir, com ou sem erro
         console.log("Sempre imprime")
     }
 }
